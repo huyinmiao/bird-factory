@@ -1,4 +1,4 @@
-package com.zhongjing.factory;
+package cn.hym.factory;
 
 /**
  * bean对象需要支持的匹配操作

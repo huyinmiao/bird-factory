@@ -1,4 +1,4 @@
-package com.zhongjing.factory;
+package cn.hym.factory;
 
 import org.springframework.beans.propertyeditors.CustomCollectionEditor;
 
