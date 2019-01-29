@@ -13,7 +13,8 @@
 方案：spring 支持 List<V> 注入，只要遍历List 中每个元素，以此匹配判断是否是目标类。
 
 # 使用说明
-如果你的spring版本<4,需要使用下面的配置，否则不需要
+如果你的spring版本<4，需要使用下面的配置，否则不需要。
+
 首先，你需要通过spring的xml配置将cn.hym.factory.ArrayBeanFactory 的编辑器注册到 CustomEditorConfigurer中，如下所示
 ```xml
     <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
